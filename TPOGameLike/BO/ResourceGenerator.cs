@@ -7,9 +7,9 @@ namespace BO
     public abstract class ResourceGenerator : Building
     {
         private List<Resource> resourceBySecond;
-        public List<Resource> ResourceBySecond()
+        public virtual List<Resource> ResourceBySecond
         {
-            return new List<Resource>();
+            get { return resourceBySecond; }
         }
         public ResourceGenerator()
         {
