@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,6 +54,10 @@
     <Compile Include="Resource.cs" />
     <Compile Include="ResourceGenerator.cs" />
     <Compile Include="SolarSystem.cs" />
+    <Compile Include="Utils\ResourcesConstants.cs" />
+    <Compile Include="Validators\DateValidator.cs" />
+    <Compile Include="Validators\IntValidator.cs" />
+    <Compile Include="Validators\PlanetResourcesValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

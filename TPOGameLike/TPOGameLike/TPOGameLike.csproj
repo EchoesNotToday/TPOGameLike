@@ -135,6 +135,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003260838116_Partie2.cs" />
+    <Compile Include="Migrations\202003260838116_Partie2.designer.cs">
+      <DependentUpon>202003260838116_Partie2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -212,6 +216,11 @@
       <Project>{c4449a19-e333-4f03-8897-75d844098305}</Project>
       <Name>BO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202003260838116_Partie2.resx">
+      <DependentUpon>202003260838116_Partie2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
